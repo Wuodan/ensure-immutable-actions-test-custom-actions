@@ -1,0 +1,6 @@
+name: Leaf Composite
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v4

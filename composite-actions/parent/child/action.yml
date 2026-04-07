@@ -1,0 +1,7 @@
+name: Child Composite
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4
+    - uses: Wuodan/ensure-immutable-actions-test-custom-actions/composite-actions/leaf@main
