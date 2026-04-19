@@ -1,4 +1,4 @@
-name: Local Reusable Target
+name: Local Reusable Workflow Target
 
 runs:
   using: composite
