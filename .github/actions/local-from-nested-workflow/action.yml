@@ -1,4 +1,4 @@
-name: Nested From Workflow
+name: Local From Nested Workflow
 
 runs:
   using: composite
