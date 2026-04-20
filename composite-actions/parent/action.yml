@@ -3,4 +3,4 @@ name: Parent Composite
 runs:
   using: composite
   steps:
-    - uses: ./child
+    - uses: ./composite-actions/parent/child
