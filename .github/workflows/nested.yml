@@ -13,4 +13,4 @@ jobs:
     uses: ./.github/workflows/nested-local-child.yml
 
   nested-remote-reusable:
-    uses: Wuodan/ensure-immutable-actions-test-custom-actions/.github/workflows/nested-remote-child.yml@main
+    uses: Wuodan/ensure-immutable-actions-test-custom-actions/.github/workflows/nested-remote-child.yml@fef39db
