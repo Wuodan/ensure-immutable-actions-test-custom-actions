@@ -1,0 +1,6 @@
+name: Nested From Workflow
+
+runs:
+  using: composite
+  steps:
+    - uses: ./.github/actions/nested-leaf

@@ -9,6 +9,9 @@ jobs:
     steps:
       - uses: ./.github/actions/local-from-workflow
 
+  nested-reusable:
+    uses: ./.github/workflows/nested.yml
+
   remote-nested:
     runs-on: ubuntu-latest
     steps:
