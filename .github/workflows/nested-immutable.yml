@@ -1,0 +1,16 @@
+name: Nested Immutable Remote Reusable Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  nested-local-action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./.github/actions/nested-from-workflow
+
+  nested-local-reusable:
+    uses: ./.github/workflows/nested-local-child.yml
+
+  nested-remote-reusable:
+    uses: Wuodan/ensure-immutable-actions-test-custom-actions/.github/workflows/nested-remote-child.yml@fef39dbbd03e7b1cb14be0e58dc6c05b1be56bdb
