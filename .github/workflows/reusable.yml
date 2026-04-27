@@ -12,4 +12,4 @@ jobs:
   remote-nested:
     runs-on: ubuntu-latest
     steps:
-      - uses: Wuodan/ensure-immutable-actions-test-fixtures/composite-actions/leaf@4be2c2d43ede62fdb8eff0be492cd2b6b931bb51
+      - uses: Wuodan/ensure-immutable-actions-test-fixtures/composite-actions/leaf@8032c17b559f92aad90b3eb6dbea3a2e5ca1a1fa
