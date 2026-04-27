@@ -1,0 +1,13 @@
+name: Excluded Nested Remote Parent
+
+on:
+  workflow_call:
+
+jobs:
+  direct:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./.github/actions/local-from-workflow
+
+  nested:
+    uses: ./.github/workflows/excluded-nested-remote-child.yml

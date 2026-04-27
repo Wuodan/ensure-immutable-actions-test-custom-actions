@@ -1,0 +1,10 @@
+name: Excluded Nested Remote Child
+
+on:
+  workflow_call:
+
+jobs:
+  child:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./.github/actions/local-from-remote-workflow
