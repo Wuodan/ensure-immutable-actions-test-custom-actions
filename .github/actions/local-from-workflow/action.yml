@@ -3,4 +3,4 @@ name: Local From Workflow
 runs:
   using: composite
   steps:
-    - uses: Wuodan/ensure-immutable-actions-test-fixtures/composite-actions/leaf@3a16a18e92e167cd0933d1344b18fefec23e174e
+    - uses: Wuodan/ensure-immutable-actions-test-fixtures/composite-actions/leaf@9aec95a22c1020150af792e138410a6df2bdc1d1
