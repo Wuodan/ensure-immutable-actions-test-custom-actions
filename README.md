@@ -1,4 +1,4 @@
-# ensure-immutable-actions Test Custom Actions
+# ensure-immutable-actions Test Fixtures
 
 This repository provides remote targets for manual validation of
 `Wuodan/ensure-immutable-actions`.
