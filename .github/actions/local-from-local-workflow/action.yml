@@ -1,0 +1,5 @@
+name: Local From Local Workflow
+
+runs:
+  using: composite
+  steps: []

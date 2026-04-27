@@ -1,0 +1,10 @@
+name: Nested Remote Child Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  remote-child:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./.github/actions/local-from-remote-workflow

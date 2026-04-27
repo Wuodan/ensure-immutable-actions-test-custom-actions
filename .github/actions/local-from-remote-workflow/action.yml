@@ -1,0 +1,5 @@
+name: Local From Remote Workflow
+
+runs:
+  using: composite
+  steps: []
