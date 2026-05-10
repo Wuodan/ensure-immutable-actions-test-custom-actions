@@ -3,5 +3,5 @@ name: Child Composite
 runs:
   using: composite
   steps:
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@v6
     - uses: Wuodan/ensure-immutable-actions-test-fixtures/composite-actions/leaf@57ebbae66140b09d148e73f8bf6a91bff9b4c0a9
