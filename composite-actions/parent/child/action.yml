@@ -4,4 +4,4 @@ runs:
   using: composite
   steps:
     - uses: actions/setup-node@v6
-    - uses: Wuodan/ensure-immutable-actions-test-fixtures/composite-actions/leaf@6d1345da82355fe3b32a06db59c9f5d961be4aff
+    - uses: Wuodan/ensure-immutable-actions-test-fixtures/composite-actions/leaf@0069693b4e9689c8fc7d58434fa90a6d62dde02f
