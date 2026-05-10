@@ -1,0 +1,5 @@
+name: Local Reusable Workflow Target
+
+runs:
+  using: node24
+  main: index.js
